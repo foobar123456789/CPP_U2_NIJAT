@@ -1,0 +1,9 @@
+lg(N^2 + 1)/ lg(N)  = O(2) 
+
+-> Bei der Berechnung des Wachstumverhaltens wird die Basis des Logarithmus ignoriert (und hier
+stellen wir uns vor , dass Basis is N )  
+und die zweite Annahme:  1 hier ist konstant , wenn wir das weglassen , wird das Wachstumverhalten 
+der Funktion nicht dramatisch verändert: 
+lg(N^2 + 1) / lg(N) = lg (N^2) /lg(N) = 2 *lg(N) / lg(N) = 2 
+
+O(2) 

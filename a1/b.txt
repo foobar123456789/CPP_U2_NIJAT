@@ -1,0 +1,4 @@
+1 + 1/N  == O(1)
+weil 1/N geht zum 0 , wenn N positiv unendlich geht 
+oder man könnte sagen , 1/N = N^-1 , und 1 = 1^0 , es zählt der Summand  mit dem stärksten Wachstum   
+

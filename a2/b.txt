@@ -1,0 +1,18 @@
+Die Anzahl der Befehle f¸r Durchf¸hrung: sum++ : 
+1 + 2 + 2^2 + ... + 2^k
+hier : 2^k = N  => k = log N (Basis dieses Logarithmus = 2)
+
+S = 1 + 2 + 2^2 + ... + 2^k 
+2*S = 2 + 2^2 + ... + 2^(k+1)
+
+//Subtrahiere S von 2*S : 
+S = 2^(k+1) -1  => 
+S = 2*2^k  -1  (jetzt ersetze k mit log N ) 
+S = 2* 2^(log N) -1 
+S = 2* N -1 
+
+Tilde Notation: 
+~ 2*N 
+Groﬂ Oh-Notation: 
+O(N)   
+

@@ -1,0 +1,3 @@
+N^100 / 2^N = O(1)   (Konstantes Wachstum) 
+weil 
+N = 144 , Funktion F(N) = N^100 / 2^N erhält den höchsten Wert : 3.0756e+172

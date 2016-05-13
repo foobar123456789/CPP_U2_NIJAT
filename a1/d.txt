@@ -1,0 +1,5 @@
+2*N^3 - 15*N^2 + N  ==  O(N^3) 
+weil N^3 hat das stärkeste Wachstum , und konstante Faktoren werden vernachlässigt 
+
+aber manchmal konstante Faktoren werden beibehalten. 
+== O(2*N^3)

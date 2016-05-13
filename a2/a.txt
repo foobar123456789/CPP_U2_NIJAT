@@ -1,0 +1,12 @@
+Die Anzahl der Befehle für Durchführung: sum++ : 
+N + N/2 + N/(2^2) + ... + 1   => wir können diese Summe so umschreiben: 
+S = N + N/2 + N/(2^2) + ... + 1 
+2* S = 2*N + N + N/2 + ... + 2 
+//subtrahiere S von 2*S 
+S = 2*N - 1 
+
+
+Tilde Notation : 
+~ 2*N 
+Groß Oh-Notation : 
+O(N) 

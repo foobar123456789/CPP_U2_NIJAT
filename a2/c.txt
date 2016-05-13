@@ -1,0 +1,17 @@
+Die Anzahl der Befehle für Durchführung: sum++ : 
+Die innere Schleife wird immer N mal durchgeführt , wir müssen herausfinden , wie viel mal wird 
+der äußere Schleife durchgeführt : 
+1, 2 , ... , 2^k (2^k = N => k = log N) 
+Anzahl der Elemente dieser geometrischer Reihe : 
+k - 0 +1 = k +1
+und jetzt k mit log N ersetzen: 
+log(N) + 1 
+
+D.h. , der äußere Schleife wird log(N) +1 ausgeführt , und wir müssen das mit N multiplizieren . 
+Das Ergebnis ist Anzahl der Ausführung sum++ : 
+N(log(N) + 1 ) 
+
+Tilde Notation : 
+~ N*log N
+Groß Oh-Notation: 
+O(N * log N) 

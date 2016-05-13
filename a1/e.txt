@@ -1,0 +1,3 @@
+lg(2N) / lg(N)  == O(1) 
+weil , lg(2N) / lg(N) = (lg(N) + lg(2)) / lg(N) = 1 + lg(2)/lg(N)  , 
+hier lg(2)/lg(N) = 0 wenn N auf positiv unendliche geht .  

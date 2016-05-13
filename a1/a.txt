@@ -1,0 +1,7 @@
+N + 1  == O(N)  
+hier : 
+1) konstante Summanden werden vernachlässigt.
+2) oder we könnten sagen , es zählt der Summand mit dem stärksten Wachstum .
+ 
+ 
+   
